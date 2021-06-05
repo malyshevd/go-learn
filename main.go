@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello, Andrei :-)")
+
 	var a int
 start:
 	fmt.Print("1. Calculate area of a rectangle. " +
