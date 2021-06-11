@@ -49,7 +49,7 @@ opEnter:
 		goto opEnter
 	}
 
-	fmt.Printf("Результат выполнения операции: %f\nДля продолжения расчетов, нажмите Enter. \nДля выхода из программы, нажмите Ctrl+Q.\n", res)
+	fmt.Printf("Результат выполнения операции: %f\nДля продолжения расчетов нажмите Enter. \nДля выхода из программы нажмите Ctrl+Q.\n", res)
 
 	_, key, err := keyboard.GetSingleKey()
 	if err != nil {
