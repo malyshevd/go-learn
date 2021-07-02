@@ -21,7 +21,6 @@ nEnter:
 	fmt.Scanln(&n)
 
 	res := prevRes[n]
-
 	if res == 0 && n != 0 {
 		res = fibonacci(n)
 		prevRes[n] = res

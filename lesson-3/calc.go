@@ -7,19 +7,6 @@ import (
 	"os"
 )
 
-type CalcParameters struct {
-	a float64
-	b float64
-}
-
-func (cp *CalcParameters) calculate() (res float64) {
-	return cp.a + cp.b
-}
-
-type Calc interface {
-	calculate()
-}
-
 func main() {
 	var a, b, res float64
 	var op string
